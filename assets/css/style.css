@@ -1,0 +1,43 @@
+/* assets/css/style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* The Welcome Box */
+.hero-section {
+    min-height: 80vh; /* Takes up most of the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 0 0 50% 50% / 10%; /* Curved bottom edge */
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.btn-custom {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+}
